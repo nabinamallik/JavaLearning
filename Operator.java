@@ -1,5 +1,8 @@
 public class Operator {
     public static void main(String[] args) {
+
+        // Arithmetic Operators
+
         int num1 = 7;
         int num2 = 5;
 
@@ -43,6 +46,35 @@ public class Operator {
         System.out.println(num4);//0
         System.out.println(num5);//12
         System.out.println(num6);//5
+
+        //Relational Operators
+
+        int x = 6;
+        int y = 5;
+        int z = 5;
+
+        // boolean result = x<y; //false
+        // boolean result = x>y; //true
+        // boolean result = y>=z; //true
+        // boolean result = y<=z; //true
+        // boolean result = y==z; //true
+        // boolean result = y!=z; //false
+
+        //Logical Operators
+
+        int a = 5;
+        int b = 7;
+        int c = 8;
+        int d = 9;
+
+        // boolean res = a > b && c > d;//false
+        // boolean res = a > b || c > d; // true
+        boolean res = a > b || c > d && a < b; // true
+
+        System.out.println(!res);//false
+
+
+
 
         
     } 
